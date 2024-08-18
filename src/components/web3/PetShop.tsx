@@ -21,8 +21,8 @@ export const PetShop: FC = () => {
     const contract = useRegisteredContract("petshop");
     const [contractAddressStored, setContractAddressStored] = useState<string>();
     const [petAdopterStatus, setPetAdopterStatus] = useState<Record<number, string | null>>({});
-    const [isAdopting, setIsAdopting] = useState<boolean>(false);
-    const [isDisowning, setIsDisowning] = useState<boolean>(false);
+    const [isAdopting, setIsAdopting] = useState<Record<number, boolean>>({});
+    const [isDisowning, setIsDisowning] = useState<Record<number, boolean>>({});
     
 
     const fetchAllPetOwners = useCallback(async () => {
@@ -148,7 +148,7 @@ export const PetShop: FC = () => {
                 </Button>
                 <Box textAlign="center" mt={2}>
                     <Link href = {`https://stellar.expert/explorer/testnet/account/${petAdopterStatus[pet.id]}`}
-                    target='_blank' color="blue.500" display ="block">
+                    target='_blank' color="blue.500">
                     View Owner 
                     </Link>
                 </Box>
