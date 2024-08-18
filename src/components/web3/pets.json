@@ -1,0 +1,130 @@
+[
+    {
+        "id": 0,
+        "name": "Bella",
+        "picture": "images/golden-retriever.jpeg",
+        "age": 4,
+        "breed": "Golden Retriever",
+        "location": "Austin, Texas"
+    },
+    {
+        "id": 1,
+        "name": "Max",
+        "picture": "images/french-bulldog.jpeg",
+        "age": 3,
+        "breed": "French Bulldog",
+        "location": "Denver, Colorado"
+    },
+    {
+        "id": 2,
+        "name": "Luna",
+        "picture": "images/scottish-terrier.jpeg",
+        "age": 2,
+        "breed": "Scottish Terrier",
+        "location": "Seattle, Washington"
+    },
+    {
+        "id": 3,
+        "name": "Charlie",
+        "picture": "images/boxer.jpeg",
+        "age": 1,
+        "breed": "Boxer",
+        "location": "Orlando, Florida"
+    },
+    {
+        "id": 4,
+        "name": "Lucy",
+        "picture": "images/golden-retriever.jpeg",
+        "age": 5,
+        "breed": "Golden Retriever",
+        "location": "Chicago, Illinois"
+    },
+    {
+        "id": 5,
+        "name": "Rocky",
+        "picture": "images/boxer.jpeg",
+        "age": 3,
+        "breed": "Boxer",
+        "location": "Portland, Oregon"
+    },
+    {
+        "id": 6,
+        "name": "Daisy",
+        "picture": "images/french-bulldog.jpeg",
+        "age": 2,
+        "breed": "French Bulldog",
+        "location": "Phoenix, Arizona"
+    },
+    {
+        "id": 7,
+        "name": "Cooper",
+        "picture": "images/golden-retriever.jpeg",
+        "age": 3,
+        "breed": "Golden Retriever",
+        "location": "San Francisco, California"
+    },
+    {
+        "id": 8,
+        "name": "Zoe",
+        "picture": "images/scottish-terrier.jpeg",
+        "age": 2,
+        "breed": "Scottish Terrier",
+        "location": "Boston, Massachusetts"
+    },
+    {
+        "id": 9,
+        "name": "Buddy",
+        "picture": "images/boxer.jpeg",
+        "age": 4,
+        "breed": "Boxer",
+        "location": "Nashville, Tennessee"
+    },
+    {
+        "id": 10,
+        "name": "Milo",
+        "picture": "images/french-bulldog.jpeg",
+        "age": 1,
+        "breed": "French Bulldog",
+        "location": "New York, New York"
+    },
+    {
+        "id": 11,
+        "name": "Lily",
+        "picture": "images/scottish-terrier.jpeg",
+        "age": 3,
+        "breed": "Scottish Terrier",
+        "location": "Atlanta, Georgia"
+    },
+    {
+        "id": 12,
+        "name": "Duke",
+        "picture": "images/golden-retriever.jpeg",
+        "age": 5,
+        "breed": "Golden Retriever",
+        "location": "Dallas, Texas"
+    },
+    {
+        "id": 13,
+        "name": "Roxy",
+        "picture": "images/boxer.jpeg",
+        "age": 2,
+        "breed": "Boxer",
+        "location": "Miami, Florida"
+    },
+    {
+        "id": 14,
+        "name": "Bailey",
+        "picture": "images/french-bulldog.jpeg",
+        "age": 3,
+        "breed": "French Bulldog",
+        "location": "Los Angeles, California"
+    },
+    {
+        "id": 15,
+        "name": "Maggie",
+        "picture": "images/golden-retriever.jpeg",
+        "age": 4,
+        "breed": "Golden Retriever",
+        "location": "Houston, Texas"
+    }
+]
