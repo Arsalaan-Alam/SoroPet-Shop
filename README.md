@@ -14,3 +14,12 @@ The Petshop contract contains three primary functions that manage pet adoption o
 Additionally, the contract includes:
 
 - **DataKey enum**: This defines a storage key in the contract, specifically used to map each pet's unique ID to its adopter's address on the blockchain. 
+
+On the frontend, there are three primary functions that interact with the smart contract:
+
+1. **fetchAllPetOwners()**: This function retrieves the current owner of each pet by invoking the `get_pet_adopter` method on the contract. It iterates through all the pets, fetches the adopter's address for each pet from the blockchain, and updates the state with this information.
+
+2. **adoptPet()**: This function allows a user to adopt a pet by invoking the `adopt_pet` method on the contract. It sends the pet's ID and the user's address to the contract, storing the adoption on the blockchain. The function also handles state updates and user notifications.
+
+3. **disownPet()**: This function enables a user to disown a pet by invoking the `disown_pet` method on the contract. It sends the pet's ID to the contract, which then removes the adoption record from the blockchain. The function also manages state changes and user feedback.
+
