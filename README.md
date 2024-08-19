@@ -23,3 +23,53 @@ On the frontend, there are three primary functions that interact with the smart 
 
 3. **disownPet()**: This function enables a user to disown a pet by invoking the `disown_pet` method on the contract. It sends the pet's ID to the contract, which then removes the adoption record from the blockchain. The function also manages state changes and user feedback.
 
+## Setup
+
+When deploying our contracts, you will need the secret key of the deployer account. This secret key will be stored in an ignored file located at `./contracts/.env`.
+
+### Steps to Set Up Your Env
+
+1. Copy the example environment file:
+   ```bash
+   cp contracts/.env.example contracts/.env
+   ```
+   If you are already inside the `contracts` folder (e.g., inside the Docker Container), simply run:
+   ```bash
+   cp .env.example .env
+   ```
+
+2. Edit the `.env` file, which will look like this:
+   ```bash
+   # Stellar accounts Secret Keys
+   ADMIN_SECRET_KEY=
+
+   # RPC Setup
+   MAINNET_RPC_URL=
+   ```
+
+3. Generate new Accounts and Private Keys from [Stellar Laboratory](https://laboratory.stellar.org/#account-creator?network=test).
+4. Find a Mainnet RPC Provider from the [Ecosystem](https://developers.stellar.org/docs/data/rpc/rpc-providers)
+
+
+### Deploy the Contract
+Here is the content formatted in Markdown for a GitHub README:
+
+```markdown
+
+
+1. **Move to the contracts folder:**
+   ```bash
+   cd contracts
+   ```
+
+2. **Build the project:**
+   ```bash
+   make build
+   ```
+
+3. **Install dependencies and deploy the contract:**
+   ```bash
+   yarn install
+   yarn deploy testnet greeting
+   ```
+```
