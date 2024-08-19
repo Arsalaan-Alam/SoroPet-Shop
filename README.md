@@ -54,9 +54,7 @@ When deploying our contracts, you will need the secret key of the deployer accou
 ### Deploy the Contract
 Here is the content formatted in Markdown for a GitHub README:
 
-```markdown
-
-
+```
 1. **Move to the contracts folder:**
    ```bash
    cd contracts
