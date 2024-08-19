@@ -52,22 +52,27 @@ When deploying our contracts, you will need the secret key of the deployer accou
 
 
 ### Deploy the Contract
-Here is the content formatted in Markdown for a GitHub README:
 
+
+```bash
+# move to the contracts folder
+cd contracts
+
+# build
+make build
+
+# Install dependencies and deploy the contract
+yarn install
+yarn deploy testnet petshop
 ```
-1. **Move to the contracts folder:**
-   ```bash
-   cd contracts
-   ```
 
-2. **Build the project:**
-   ```bash
-   make build
-   ```
+### Run the frontend
 
-3. **Install dependencies and deploy the contract:**
-   ```bash
-   yarn install
-   yarn deploy testnet greeting
-   ```
-```
+```bash
+# move to the parent folder
+cd ..
+# install the dependencies
+yarn
+# run the frontend in development mode
+yarn dev
+
